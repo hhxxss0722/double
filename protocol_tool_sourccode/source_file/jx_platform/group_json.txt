@@ -1,0 +1,8 @@
+{
+	"group2list":{
+		"bat_cell_volt": [],
+		"bat_cell_temp": []	
+	},
+	"multi_g_name_list":[
+	]
+}

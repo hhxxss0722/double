@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CallForm</class>
+ <widget class="QDialog" name="CallForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>249</width>
+    <height>204</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>电话界面</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>199</width>
+     <height>172</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>电话号码</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txt_cn"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>本机号码</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="txt_ln"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="btn_call">
+        <property name="text">
+         <string>打电话</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_calla">
+        <property name="text">
+         <string>接电话</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_callh">
+        <property name="text">
+         <string>挂电话</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_close">
+        <property name="text">
+         <string>关闭</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <zorder>btn_callh</zorder>
+  <zorder>btn_calla</zorder>
+  <zorder>btn_call</zorder>
+  <zorder>btn_close</zorder>
+  <zorder>label</zorder>
+  <zorder>txt_cn</zorder>
+  <zorder>label_2</zorder>
+  <zorder>txt_ln</zorder>
+  <zorder></zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

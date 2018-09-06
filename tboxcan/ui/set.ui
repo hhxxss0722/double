@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetForm</class>
+ <widget class="QDialog" name="SetForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>435</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>XML设置界面</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>460</y>
+     <width>239</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_12">
+    <item>
+     <widget class="QPushButton" name="btn_ok">
+      <property name="text">
+       <string>保存</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_default">
+      <property name="text">
+       <string>默认</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_esc">
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>13</y>
+     <width>398</width>
+     <height>440</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_3">
+    <item row="0" column="0">
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>XML</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="txt_xml">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>batch</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="txt_batch"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>hardwre</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="txt_hardwre"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>boot</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="txt_boot"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>qc</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="txt_qc"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>app</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="txt_app"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>mina</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="txt_mina"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>maxa</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLineEdit" name="txt_maxa"/>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_12">
+        <property name="text">
+         <string>gsmsoft</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QLineEdit" name="txt_gsmsoft"/>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLabel" name="label_11">
+        <property name="text">
+         <string>gsmcsq</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QLineEdit" name="txt_gsmcsq"/>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>fram</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QLineEdit" name="txt_fram"/>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLabel" name="label_10">
+        <property name="text">
+         <string>minadc</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="1">
+       <widget class="QLineEdit" name="txt_minadc"/>
+      </item>
+      <item row="12" column="0">
+       <widget class="QLabel" name="label_16">
+        <property name="text">
+         <string>maxadc</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="1">
+       <widget class="QLineEdit" name="txt_maxadc"/>
+      </item>
+      <item row="13" column="0">
+       <widget class="QLabel" name="label_15">
+        <property name="text">
+         <string>BaudRate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="1">
+       <widget class="QLineEdit" name="txt_bsp"/>
+      </item>
+      <item row="14" column="0">
+       <widget class="QLabel" name="label_13">
+        <property name="text">
+         <string>gpstime</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="1">
+       <widget class="QLineEdit" name="txt_gpstime"/>
+      </item>
+      <item row="15" column="0">
+       <widget class="QLabel" name="label_14">
+        <property name="text">
+         <string>gpsS</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="1">
+       <widget class="QLineEdit" name="txt_gpss"/>
+      </item>
+      <item row="16" column="0">
+       <widget class="QLabel" name="label_20">
+        <property name="text">
+         <string>getstar</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="1">
+       <widget class="QLineEdit" name="txt_getstar"/>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <layout class="QFormLayout" name="formLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_17">
+        <property name="text">
+         <string>serchstar</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="txt_serchstar"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_18">
+        <property name="text">
+         <string>pcbatest</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="txt_pcba"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_19">
+        <property name="text">
+         <string>alltest</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="txt_all"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_21">
+        <property name="text">
+         <string>outlable</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="txt_outlable"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_22">
+        <property name="text">
+         <string>model</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="txt_model"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_23">
+        <property name="text">
+         <string>com</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="txt_com"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_24">
+        <property name="text">
+         <string>emmcsize</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLineEdit" name="txt_emmcsize"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="label_25">
+        <property name="text">
+         <string>emmcclk</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLineEdit" name="txt_emmcclk"/>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="label_26">
+        <property name="text">
+         <string>emmcid</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QLineEdit" name="txt_emmcid"/>
+      </item>
+      <item row="9" column="0">
+       <widget class="QLabel" name="label_27">
+        <property name="text">
+         <string>e2rid</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QLineEdit" name="txt_e2rid"/>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="label_28">
+        <property name="text">
+         <string>e2rsize</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QLineEdit" name="txt_e2rsize"/>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLabel" name="label_29">
+        <property name="text">
+         <string>minbadc</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="1">
+       <widget class="QLineEdit" name="txt_minbadc"/>
+      </item>
+      <item row="12" column="0">
+       <widget class="QLabel" name="label_30">
+        <property name="text">
+         <string>maxbadc</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="1">
+       <widget class="QLineEdit" name="txt_maxbadc"/>
+      </item>
+      <item row="13" column="0">
+       <widget class="QLabel" name="label_31">
+        <property name="text">
+         <string>noweb</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="1">
+       <widget class="QLineEdit" name="txt_noweb"/>
+      </item>
+      <item row="14" column="0">
+       <widget class="QLabel" name="label_32">
+        <property name="text">
+         <string>gid</string>
+        </property>
+       </widget>
+      </item>
+      <item row="14" column="1">
+       <widget class="QLineEdit" name="txt_gid"/>
+      </item>
+      <item row="15" column="0">
+       <widget class="QLabel" name="label_33">
+        <property name="text">
+         <string>ssid</string>
+        </property>
+       </widget>
+      </item>
+      <item row="15" column="1">
+       <widget class="QLineEdit" name="txt_ssid"/>
+      </item>
+      <item row="16" column="0">
+       <widget class="QLabel" name="label_34">
+        <property name="text">
+         <string>pwd</string>
+        </property>
+       </widget>
+      </item>
+      <item row="16" column="1">
+       <widget class="QLineEdit" name="txt_pwd"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>txt_xml</zorder>
+  <zorder>label_2</zorder>
+  <zorder>txt_batch</zorder>
+  <zorder>label_3</zorder>
+  <zorder>txt_boot</zorder>
+  <zorder>label_6</zorder>
+  <zorder>txt_hardwre</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget_2</zorder>
+  <zorder>layoutWidget_3</zorder>
+  <zorder>layoutWidget_4</zorder>
+  <zorder>layoutWidget_5</zorder>
+  <zorder>layoutWidget_6</zorder>
+  <zorder>layoutWidget_7</zorder>
+  <zorder>layoutWidget_8</zorder>
+  <zorder>layoutWidget_9</zorder>
+  <zorder>layoutWidget_10</zorder>
+  <zorder>layoutWidget_11</zorder>
+  <zorder>layoutWidget_12</zorder>
+  <zorder>layoutWidget_16</zorder>
+  <zorder>label_20</zorder>
+  <zorder>btn_ok</zorder>
+  <zorder>btn_default</zorder>
+  <zorder>btn_esc</zorder>
+  <zorder>layoutWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

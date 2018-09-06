@@ -1,0 +1,26 @@
+{
+	"group2list":{
+		"motor_serial_num" : [],
+		"motor_st" : [],
+		"motor_controller_temp" : [],
+		"motor_speed" : [],
+		"motor_torque" : [],
+		"motor_temp" : [],
+		"motor_controller_voltage" : [],
+		"motor_controller_current" : [],
+		"probe_temp": [],
+		"rechar_energy_sys_no": [],
+		"rechar_energy_volt": [],
+		"rechar_energy_curr": [],
+		"rechar_bat_cell_sum": [],
+		"rechar_f_bat_start_no": [],
+		"rechar_f_bat_cell_sum": [],
+		"rechar_bat_cell_volt": [],
+		"rechar_probe_sum": [],
+		"rechar_bat_cell_temp": []	
+	},
+	"multi_g_name_list":[
+		"rechar_bat_cell_volt",
+		"rechar_bat_cell_temp"
+	]
+}

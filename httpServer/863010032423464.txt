@@ -1,0 +1,1 @@
+{"dataUrl":"59.63.189.83:9999","upgradeUrl":"http://124.207.149.200/jiangxi-tcm-ice/ws/0.1/software/versions"}

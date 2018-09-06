@@ -1,0 +1,276 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 2565872134 Controller_system_data_1: 8 Vector__XXX
+ SG_ motor_speed_1 : 48|16@1+ (1,0) [0|11000] "rpm" Vector__XXX
+ SG_ motor_torque_1 : 32|16@1+ (0.1,0) [0|600] "Nm" Vector__XXX
+
+BO_ 2565878790 Controller_system_data_2: 8 Vector__XXX
+ SG_ motor_controller_temp_1 : 48|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ motor_temp_1 : 56|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ motor_controller_voltage_1 : 0|16@1+ (0.1,0) [0|500] "V" Vector__XXX
+ SG_ motor_controller_current_1 : 16|16@1+ (0.1,-3200) [-900|900] "A" Vector__XXX
+
+BO_ 2566197540 BMS_data_1: 8 Vector__XXX
+ SG_ bat_total_voltage : 0|16@1+ (0.1,0) [0|500] "V" Vector__XXX
+ SG_ bat_total_current : 16|16@1+ (0.1,-320) [-320|400] "A" Vector__XXX
+ SG_ bat_soc : 48|8@1+ (1,0) [0|100] "%" Vector__XXX
+ SG_ insulation_resist : 32|16@1+ (1,0) [0|30000] "K¦¸" Vector__XXX
+
+BO_ 2566201892 BMS_data_2: 8 Vector__XXX
+ SG_ bat_max_cell_volt_no : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ bat_max_cell_volt : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ bat_min_cell_volt_no : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ bat_min_cell_volt : 24|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566206244 BMS_data_3: 8 Vector__XXX
+ SG_ bat_max_temp_probe_no : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ bat_max_temp : 0|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ bat_min_temp_probe_no : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ bat_min_temp : 16|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+
+BO_ 2566202148 BMS_data_4: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566202660 BMS_data_5: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566202916 BMS_data_6: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566203172 BMS_data_7: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566203428 BMS_data_8: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566203684 BMS_data_9: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566205476 BMS_data_10: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566205732 BMS_data_11: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566205988 BMS_data_12: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566206500 BMS_data_13: 8 Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 0|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 16|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 32|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+ SG_ rechar_bat_cell_volt_1 : 48|16@1+ (0.001,0) [0|6] "V" Vector__XXX
+
+BO_ 2566204196 BMS_data_14: 8 Vector__XXX
+ SG_ rechar_probe_sum : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ alarm_gb_temp_diff : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_bat_temp_high : 62|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_energy_volt_high : 61|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_energy_volt_low : 60|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_soc_low : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_recharge_sys_unmatch : 58|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_bat_cell_diff : 57|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2566204452 BMS_data_15: 8 Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 0|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 8|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 16|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 24|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 32|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 40|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 48|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 56|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+
+BO_ 2566204708 BMS_data_16: 8 Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 0|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 8|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 16|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 24|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 32|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 40|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 48|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+ SG_ rechar_bat_cell_temp_1 : 56|8@1+ (1,-40) [-40|150] "¡æ" Vector__XXX
+
+BO_ 2566204964 BMS_data_17: 8 Vector__XXX
+ SG_ bat_charge_st : 30|2@1+ (1,0) [1|3] "" Vector__XXX
+ SG_ vehicle_run_mode : 28|2@1+ (1,0) [1|3] "" Vector__XXX
+ SG_ dc_dc_st : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ bat_max_volt_sub_no : 32|8@1+ (1,0) [1|255] "" Vector__XXX
+ SG_ bat_min_volt_sub_no : 40|8@1+ (1,0) [1|255] "" Vector__XXX
+ SG_ bat_max_temp_sub_no : 48|8@1+ (1,0) [1|255] "" Vector__XXX
+ SG_ bat_min_temp_sub_no : 56|8@1+ (1,0) [1|255] "" Vector__XXX
+
+BO_ 2566205220 BMS_data_18: 8 Vector__XXX
+ SG_ alarm_gb_soc_too_high : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_soc_altus : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_dc_dc_temp : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_dc_dc_st : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_high_volt_interlocked : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ alarm_gb_energy_overcharge : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2566747428 BMS_station_1: 8 Vector__XXX
+
+BO_ 2566142231 Dashboard_data_1: 8 Vector__XXX
+ SG_ vehicle_speed : 48|16@1+ (0.1,0) [0|200] "Km/h" Vector__XXX
+ SG_ vehicle_mileage : 0|32@1+ (0.1,0) [0|429496729.5] "Km" Vector__XXX
+
+
+
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","NotUsed","IfActive","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","noMsgSendType";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_DEF_  "GenMsgSendType" "noMsgSendType";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+BA_ "BusType" "CAN";
+BA_ "DBName" "lingchen";
+BA_ "GenMsgCycleTime" BO_ 2565872134 100;
+BA_ "GenMsgSendType" BO_ 2565872134 0;
+BA_ "VFrameFormat" BO_ 2565872134 3;
+BA_ "GenMsgCycleTime" BO_ 2565878790 100;
+BA_ "GenMsgSendType" BO_ 2565878790 0;
+BA_ "VFrameFormat" BO_ 2565878790 3;
+BA_ "GenMsgCycleTime" BO_ 2566197540 100;
+BA_ "GenMsgSendType" BO_ 2566197540 0;
+BA_ "VFrameFormat" BO_ 2566197540 3;
+BA_ "GenMsgCycleTime" BO_ 2566201892 100;
+BA_ "GenMsgSendType" BO_ 2566201892 0;
+BA_ "VFrameFormat" BO_ 2566201892 3;
+BA_ "GenMsgCycleTime" BO_ 2566206244 100;
+BA_ "GenMsgSendType" BO_ 2566206244 0;
+BA_ "VFrameFormat" BO_ 2566206244 3;
+BA_ "GenMsgCycleTime" BO_ 2566202148 10000;
+BA_ "GenMsgSendType" BO_ 2566202148 0;
+BA_ "VFrameFormat" BO_ 2566202148 3;
+BA_ "GenMsgCycleTime" BO_ 2566202660 10000;
+BA_ "GenMsgSendType" BO_ 2566202660 0;
+BA_ "VFrameFormat" BO_ 2566202660 3;
+BA_ "GenMsgCycleTime" BO_ 2566202916 10000;
+BA_ "GenMsgSendType" BO_ 2566202916 0;
+BA_ "VFrameFormat" BO_ 2566202916 3;
+BA_ "GenMsgCycleTime" BO_ 2566203172 10000;
+BA_ "GenMsgSendType" BO_ 2566203172 0;
+BA_ "VFrameFormat" BO_ 2566203172 3;
+BA_ "GenMsgCycleTime" BO_ 2566203428 10000;
+BA_ "GenMsgSendType" BO_ 2566203428 0;
+BA_ "VFrameFormat" BO_ 2566203428 3;
+BA_ "GenMsgCycleTime" BO_ 2566203684 10000;
+BA_ "GenMsgSendType" BO_ 2566203684 0;
+BA_ "VFrameFormat" BO_ 2566203684 3;
+BA_ "GenMsgCycleTime" BO_ 2566205476 10000;
+BA_ "GenMsgSendType" BO_ 2566205476 0;
+BA_ "VFrameFormat" BO_ 2566205476 3;
+BA_ "GenMsgCycleTime" BO_ 2566205732 10000;
+BA_ "GenMsgSendType" BO_ 2566205732 0;
+BA_ "VFrameFormat" BO_ 2566205732 3;
+BA_ "GenMsgCycleTime" BO_ 2566205988 10000;
+BA_ "GenMsgSendType" BO_ 2566205988 0;
+BA_ "VFrameFormat" BO_ 2566205988 3;
+BA_ "GenMsgCycleTime" BO_ 2566206500 10000;
+BA_ "GenMsgSendType" BO_ 2566206500 0;
+BA_ "VFrameFormat" BO_ 2566206500 3;
+BA_ "GenMsgCycleTime" BO_ 2566204196 10000;
+BA_ "GenMsgSendType" BO_ 2566204196 0;
+BA_ "VFrameFormat" BO_ 2566204196 3;
+BA_ "GenMsgCycleTime" BO_ 2566204452 10000;
+BA_ "GenMsgSendType" BO_ 2566204452 0;
+BA_ "VFrameFormat" BO_ 2566204452 3;
+BA_ "GenMsgCycleTime" BO_ 2566204708 10000;
+BA_ "GenMsgSendType" BO_ 2566204708 0;
+BA_ "VFrameFormat" BO_ 2566204708 3;
+BA_ "GenMsgCycleTime" BO_ 2566204964 10000;
+BA_ "GenMsgSendType" BO_ 2566204964 0;
+BA_ "VFrameFormat" BO_ 2566204964 3;
+BA_ "GenMsgCycleTime" BO_ 2566205220 10000;
+BA_ "GenMsgSendType" BO_ 2566205220 0;
+BA_ "VFrameFormat" BO_ 2566205220 3;
+BA_ "GenMsgCycleTime" BO_ 2566747428 500;
+BA_ "GenMsgSendType" BO_ 2566747428 0;
+BA_ "VFrameFormat" BO_ 2566747428 3;
+BA_ "GenMsgCycleTime" BO_ 2566142231 100;
+BA_ "GenMsgSendType" BO_ 2566142231 0;
+BA_ "VFrameFormat" BO_ 2566142231 3;
+VAL_ 2566204196 alarm_gb_temp_diff 0 "Normal  ##level_0" 1 "Temperature difference alarm  ##level_1" ;
+VAL_ 2566204196 alarm_gb_bat_temp_high 0 "Normal  ##level_0" 1 "Battery high temperature alarm  ##level_1" ;
+VAL_ 2566204196 alarm_gb_energy_volt_high 0 "Normal  ##level_0" 1 "Battery high temperature alarm  ##level_1" ;
+VAL_ 2566204196 alarm_gb_energy_volt_low 0 "Normal  ##level_0" 1 "Low voltage alarm of the on-board energy storage device  ##level_1" ;
+VAL_ 2566204196 alarm_gb_soc_low 0 "Normal  ##level_0" 1 "SOC low alarm  ##level_1" ;
+VAL_ 2566204196 alarm_gb_recharge_sys_unmatch 0 "Normal  ##level_0" 1 "Miss-matching alarm of chargeable energy storage system  ##level_1" ;
+VAL_ 2566204196 alarm_gb_bat_cell_diff 0 "Normal  ##level_0" 1 "Consistency error alarm of single battery cell  ##level_1" ;
+VAL_ 2566204964 bat_charge_st 1 "0x01" 2 "0x02" 3 "0x03" 255 "" ;
+VAL_ 2566204964 vehicle_run_mode 1 "0x01" 2 "0x02" 3 "0x03" 255 "" ;
+VAL_ 2566204964 dc_dc_st 1 "" 255 "" ;
+VAL_ 2566205220 alarm_gb_soc_too_high 0 "Normal  ##level_0" 1 "SOC high alarm  ##level_1" ;
+VAL_ 2566205220 alarm_gb_soc_altus 0 "Normal   ##level_0" 1 "SOC jump alarm  ##level_1" ;
+VAL_ 2566205220 alarm_gb_dc_dc_temp 0 "Normal  ##level_0" 1 "DC temperature alarm   ##level_1" ;
+VAL_ 2566205220 alarm_gb_dc_dc_st 0 "Normal  ##level_0" 1 "DC-DC status alarm  ##level_1" ;
+VAL_ 2566205220 alarm_gb_high_volt_interlocked 0 "Normal  ##level_0" 1 "High voltage inter-lock status alarm   ##level_1" ;
+VAL_ 2566205220 alarm_gb_energy_overcharge 0 "Normal  ##level_0" 1 "Over charge alarm of the on-board energy storage device  ##level_1" ;
+

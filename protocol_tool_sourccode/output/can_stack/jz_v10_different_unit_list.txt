@@ -1,0 +1,11 @@
+plat:	insulation_resist unit: k¦¸	<------>	factory:	insulation_resist unit: K¦¸
+plat:	bat_total_voltage unit: v	<------>	factory:	bat_total_voltage unit: V
+plat:	bat_soc unit: %	<------>	factory:	bat_soc unit: 
+plat:	bat_max_cell_volt unit: v	<------>	factory:	bat_max_cell_volt unit: V
+plat:	bat_min_cell_volt unit: v	<------>	factory:	bat_min_cell_volt unit: V
+plat:	motor_speed unit: r/min	<------>	factory:	motor_speed_1 unit: rpm
+plat:	motor_speed unit: r/min	<------>	factory:	motor_speed_2 unit: rpm
+plat:	motor_controller_voltage unit: v	<------>	factory:	motor_controller_voltage_1 unit: V
+plat:	motor_controller_voltage unit: v	<------>	factory:	motor_controller_voltage_2 unit: V
+plat:	rechar_energy_volt unit: v	<------>	factory:	rechar_energy_volt unit: V
+plat:	rechar_energy_curr unit: A	<------>	factory:	rechar_energy_curr unit: V

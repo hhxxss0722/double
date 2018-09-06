@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carsmart>
+<sim>18012345678</sim>
+<sfver>s123456</sfver>
+<md5>8cc6287f23f0859b5fb6b933436656a9</md5>
+<readbin>TBOX_EC20_GPS.bin</readbin>
+<batch>180301XJ</batch>     #批次号
+<setpn>18676890774</setpn>
+<hardware>0100</hardware>
+<boot>TBAT1V07B27S00018113</boot>
+<qc>TBQCAT00017C08</qc>
+<app>X1011</app>
+<mina>9.0</mina>
+<maxa>11.0</maxa>
+<gsmsoft>EC20CFAR02A08M4G</gsmsoft>
+<gsmcsq>12</gsmcsq>
+<fram>1.5</fram>
+<minadc>11.7</minadc>
+<maxadc>13.3</maxadc>
+<BaudRate>115200</BaudRate>
+<gpstime>600</gpstime>
+<gpsStrength>30</gpsStrength>
+<getstar>3</getstar>
+<serchstar>3</serchstar>
+<pcbatest>0</pcbatest>
+<alltest>1</alltest>
+<outlable>1</outlable>
+<model>c_tbox</model>       #设备类型，如tbox，obd
+<communication>uart</communication>
+<emmcsize>8386560</emmcsize>
+<emmcid>8190MB</emmcid>
+<emmcclk>16000000</emmcclk>
+<e2rid>20</e2rid>
+<e2rsize>16</e2rsize>
+<minbadc>3.8</minbadc>
+<maxbadc>4.2</maxbadc>
+<noweb>noweb</noweb>
+<gid>noset</gid>
+<ssid>CARSMART_WIFI</ssid>
+<pwd>12345678</pwd>
+<imei>878172747177777</imei>
+</carsmart>

@@ -1,0 +1,13 @@
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","NotUsed","IfActive","NotUsed","NotUsed","NotUsed","NotUsed","NotUsed","noMsgSendType";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 3600000;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","J1939PG";
+BA_DEF_DEF_  "GenMsgSendType" "noMsgSendType";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "VFrameFormat" "J1939PG";
+
+BA_ "BusType" "CAN";
+BA_ "DBName" "lingchen";

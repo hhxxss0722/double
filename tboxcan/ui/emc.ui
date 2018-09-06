@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>emcform</class>
+ <widget class="QDialog" name="emcform">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>433</width>
+    <height>357</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>EMC测试上位机</string>
+  </property>
+  <widget class="QComboBox" name="cb_com">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>11</y>
+     <width>69</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_serch">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>搜索</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_open">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_send">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_sql">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>43</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EMMC</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_emmc">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>43</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_emmc">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>43</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>emmc</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>69</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>功放</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_gf">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>69</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>95</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EPPROM</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_epprom">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>95</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>121</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAN0</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_c0">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>121</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>147</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAN1</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_c1">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>147</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_gf">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>69</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>功放</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_epprom">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>95</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>epprom</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_c0">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>121</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAN0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_can1">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>147</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAN1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_can2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>69</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAN2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_dtu">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>95</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DTU</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_login">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>121</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>login</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_l99m">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>147</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>L99M</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_port">
+   <property name="geometry">
+    <rect>
+     <x>151</x>
+     <y>201</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PORT</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="txt_all">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>230</y>
+     <width>421</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_fill">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>201</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>充电</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>95</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EC20</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_ec20">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>95</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_l99m">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>147</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>147</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>L99M</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_mcu">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>43</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>69</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CAN2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>43</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>MCU</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_c2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>69</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>121</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LOGIN</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_login">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>121</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_emmc">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>43</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>异常</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_gf">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>69</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>异常</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_e2r">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>95</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>异常</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_c1">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>147</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>异常</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_c0">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>121</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>异常</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_login">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>123</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>异常</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_l99m">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>149</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>异常</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_c2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>71</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>异常</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_ec20">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>97</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>异常</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>205</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>端口</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rb_port">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>205</y>
+     <width>50</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>按键</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txt_port">
+   <property name="geometry">
+    <rect>
+     <x>53</x>
+     <y>205</y>
+     <width>40</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>180</y>
+     <width>385</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QCheckBox" name="cb_fchrg">
+      <property name="text">
+       <string>fchrg</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="cb_chrg">
+      <property name="text">
+       <string>chrg</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="cb_ecall">
+      <property name="text">
+       <string>ecall</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="cb_bcall">
+      <property name="text">
+       <string>bcall</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="cb_icall">
+      <property name="text">
+       <string>icall</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="cb_sbs">
+      <property name="text">
+       <string>sbs</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="cb_kl15">
+      <property name="text">
+       <string>kl15</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btn_clear">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>201</y>
+     <width>60</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清除</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

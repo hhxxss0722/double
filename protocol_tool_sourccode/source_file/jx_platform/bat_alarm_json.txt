@@ -1,0 +1,14 @@
+{
+"alarm_temp_diff"          : "温度差异报警",
+"alarm_bat_temp_high"      : "电池极柱高温报警",
+"alarm_bat_pack_volt_high" : "动力蓄电池包过压报警",
+"alarm_bat_pack_volt_low"  : "动力蓄电池包欠压报警",
+"alarm_soc_low"            : "SOC低报警",
+"alarm_bat_cell_volt_high" : "单体蓄电池过压报警",
+"alarm_bat_cell_volt_low"  : "单体蓄电池欠压报警",
+"alarm_soc_too_low"        : "SOC太低报警",
+"alarm_soc_too_high"       : "SOC过高报警",
+"alarm_bat_pack_unmatch"   : "动力蓄电池包不匹配报警",
+"alarm_bat_cell_diff"      : "动力蓄电池一致性差报警",
+"alarm_insulation"         : "绝缘故障"
+}

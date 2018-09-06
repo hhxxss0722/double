@@ -1,0 +1,47 @@
+from data_request import Data_request
+
+#测试接口模板
+
+s = {
+    'bt': '12345',
+    'ws': '1',
+    'csq': '31',
+    'isw': '1',
+    'bsw': '1',
+    'esw': '1',
+    'sbs': '1',
+    'Kl15': '1',
+    'schrg': '1',
+    'fchrg': '1',
+    'ILED': '1',
+    'BLED': '1',
+    'ELED': '1',
+    'HD2': '1',
+    'HD1': '1',
+    'Backup': '1',
+    'Adc3': '3.9',
+    'Adc2': '12',
+    'Adc1': '12',
+    'eeprom': '1',
+    'wifiap': '1',
+    'call': '1',
+    'imsi': '1',
+    '4gsoft': 'EC20CFAR02A08M4G',
+    'qc': '12345',
+    'app': '12345',
+    'battery': '1',
+    'emmc': '1',
+    'cryc': '1',
+    'crym': '1',
+    'can': '1',
+    'led': '1',
+    'gpsStrength': '40',
+    'gpsPosiTime': '21',
+    'imei': '878172747177777',
+    'model': 'c_tbox',
+    'batch': '180301XJ'
+    }
+
+can_data = Data_request(s)
+result = can_data.send_data()
+print(result)
