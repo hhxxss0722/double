@@ -29,7 +29,7 @@ pyqt5-tools==5.9.0.1.2
 pyserial==3.4
 python-dateutil==2.6.1
 pytz==2017.3
-pywin32==222
+pywin32==301
 sip==4.19.7
 six==1.11.0
 SQLAlchemy==1.2.5
